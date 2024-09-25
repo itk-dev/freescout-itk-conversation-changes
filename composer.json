@@ -1,0 +1,25 @@
+{
+    "name": "freescout/itkconversationchanges",
+    "description": "",
+    "authors": [
+        {
+            "name": "FreeScout",
+            "email": "support@freescout.net"
+        }
+    ],
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Modules\\ItkConversationChanges\\Providers\\ItkConversationChangesServiceProvider"
+            ],
+            "aliases": {
+                
+            }
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Modules\\ItkConversationChanges\\": ""
+        }
+    }
+}
