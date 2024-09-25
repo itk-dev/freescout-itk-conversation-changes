@@ -4,7 +4,6 @@ namespace Modules\ItkConversationChanges\Providers;
 
 use Illuminate\Support\ServiceProvider;
 use Illuminate\Database\Eloquent\Factory;
-use Nwidart\Modules\Repository as Module;
 use TorMorten\Eventy\Facades\Events as Eventy;
 
 define('ITK_CONVERSATION_CHANGES_MODULE', 'itkconversationchanges');
