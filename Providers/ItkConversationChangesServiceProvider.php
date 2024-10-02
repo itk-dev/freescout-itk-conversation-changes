@@ -40,6 +40,11 @@ class ItkConversationChangesServiceProvider extends ServiceProvider
         $javascripts[] = \Module::getPublicPath(ITK_CONVERSATION_CHANGES_MODULE).'/js/disableStatusChanges.js';
         return $javascripts;
       });
+      // Add module's JS file to the application layout.
+      Eventy::addFilter('eup.javascripts', function($javascripts) {
+        $javascripts[] = \Module::getPublicPath(ITK_CONVERSATION_CHANGES_MODULE).'/js/movePortalSubmitForm.js';
+        return $javascripts;
+      });
     }
 
     /**
