@@ -1,0 +1,7 @@
+.note-editor .note-statusbar select:first-of-type {
+    display: none;
+}
+
+.note-editor .note-statusbar .editor-btm-text:first-of-type {
+    display: none;
+}
