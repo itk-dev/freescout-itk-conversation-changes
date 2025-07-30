@@ -48,6 +48,7 @@ class ItkConversationChangesServiceProvider extends ServiceProvider
       // Add module's JS file to the application layout.
       Eventy::addFilter('eup.javascripts', function($javascripts) {
         $javascripts[] = \Module::getPublicPath(ITK_CONVERSATION_CHANGES_MODULE).'/js/movePortalSubmitForm.js';
+        $javascripts[] = \Module::getPublicPath(ITK_CONVERSATION_CHANGES_MODULE).'/js/addFaqMainMenu.js';
         return $javascripts;
       });
     }
